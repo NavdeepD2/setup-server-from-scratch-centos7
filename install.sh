@@ -6,6 +6,7 @@ systemctl disable firewalld
 systemctl disable NetworkManager 
 systemctl stop NetworkManager 
 yum install -y wget screen atop iftop mlocate iotop htop vim telnet zip net-tools unzip  smartmontools bind-utils
+yum -y update
 # Download latest kernel
 wget http://mirror.imt-systems.com/elrepo/archive/kernel/el7/x86_64/RPMS/kernel-lt-4.4.206-1.el7.elrepo.x86_64.rpm http://mirror.imt-systems.com/elrepo/archive/kernel/el7/x86_64/RPMS/kernel-lt-devel-4.4.206-1.el7.elrepo.x86_64.rpm http://mirror.imt-systems.com/elrepo/archive/kernel/el7/x86_64/RPMS/kernel-lt-headers-4.4.206-1.el7.elrepo.x86_64.rpm http://mirror.imt-systems.com/elrepo/archive/kernel/el7/x86_64/RPMS/kernel-lt-tools-4.4.206-1.el7.elrepo.x86_64.rpm http://mirror.imt-systems.com/elrepo/archive/kernel/el7/x86_64/RPMS/kernel-lt-tools-libs-4.4.206-1.el7.elrepo.x86_64.rpm http://mirror.imt-systems.com/elrepo/archive/kernel/el7/x86_64/RPMS/kernel-lt-tools-libs-devel-4.4.206-1.el7.elrepo.x86_64.rpm
 # Download R1soft packages
