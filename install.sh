@@ -18,6 +18,12 @@ grub2-set-default 0
 grub2-mkconfig -o /boot/grub2/grub.cfg
 grub2-set-default 0
 awk -F\' '$1=="menuentry " {print $2}' /etc/grub2.cfg
+
+
+
+
+
+
 ###### Here Reboot the server then Run below commands #####
 yum remove `rpm -qa|grep kernel|grep tools` -y
 yum install -y kernel-lt-tools-4.4.206-1.el7.elrepo.x86_64.rpm kernel-lt-tools-libs-4.4.206-1.el7.elrepo.x86_64.rpm kernel-lt-tools-libs-devel-4.4.206-1.el7.elrepo.x86_64.rpm
