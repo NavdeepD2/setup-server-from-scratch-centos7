@@ -22,9 +22,7 @@ reboot
 yum remove `rpm -qa|grep kernel|grep tools` -y
 yum install -y kernel-lt-tools-4.4.206-1.el7.elrepo.x86_64.rpm kernel-lt-tools-libs-4.4.206-1.el7.elrepo.x86_64.rpm kernel-lt-tools-libs-devel-4.4.206-1.el7.elrepo.x86_64.rpm
 yum install -y r1soft-getmodule-1.0.0-79.x86_64.rpm 
-yum install -y serverbackup-agent-6.12.0.x86_64.rpm
 yum install -y serverbackup-async-agent-2-6-6.12.0.x86_64.rpm 
-yum install -y serverbackup-agent-6.12.0.x86_64.rpm
 yum install -y serverbackup-setup-6.12.0.x86_64.rpm 
 yum install -y serverbackup-agent-6.12.0.x86_64.rpm
 yum install -y serverbackup-enterprise-agent-6.12.0.x86_64.rpm
